@@ -1,0 +1,706 @@
+{
+    "accessors": [
+        {
+            "bufferView": 11,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_tree02_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 10,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_tree02_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1060,
+            "max": [
+                0.8227046728134155,
+                0.8838764429092407
+            ],
+            "min": [
+                0.26952144503593445,
+                0.5056092441082001
+            ],
+            "name": "accessor_buffer_BigTree.008_TEXCOORD_0_0",
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2,
+            "max": [
+                -0.037312645465135574,
+                -6.006705001069769e-23,
+                8.276357377212662e-09,
+                0.0,
+                -1.3483898429099894e-15,
+                0.09467048197984695,
+                -1.5423777810497086e-08,
+                0.0,
+                0.0869898796081543,
+                -1.5423777810497086e-08,
+                -0.03734476864337921,
+                0.0,
+                0.01799851655960083,
+                -0.016249369829893112,
+                0.06276710331439972,
+                1.0
+            ],
+            "min": [
+                -0.09467048197984695,
+                -0.006256332155317068,
+                -0.0867820605635643,
+                0.0,
+                -0.0017402346711605787,
+                0.09446019679307938,
+                -0.00606163963675499,
+                0.0,
+                -8.276357377212662e-09,
+                -0.0007938549970276654,
+                -0.09467048197984695,
+                0.0,
+                -0.0023897942155599594,
+                -1.0141522884368896,
+                -0.0002824588736984879,
+                1.0
+            ],
+            "name": "accessor_buffer_IBM_BigTree.007_skin_0",
+            "type": "MAT4"
+        },
+        {
+            "bufferView": 9,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                1.0000001192092896,
+                1.0000001192092896,
+                1.0000001192092896
+            ],
+            "min": [
+                0.9999999403953552,
+                0.9999999403953552,
+                0.9999999403953552
+            ],
+            "name": "accessor_buffer_Bone.001_Armature_tree02_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "min": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "name": "accessor_buffer_Bone.001_Armature_tree02_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                7.416666666666685
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_Armature_tree02_time_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1060,
+            "max": [
+                8.463029861450195,
+                28.602195739746094,
+                7.077762603759766
+            ],
+            "min": [
+                -8.306493759155273,
+                -0.13825517892837524,
+                -8.311128616333008
+            ],
+            "name": "accessor_buffer_BigTree.008_POSITION_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                0.021690651774406433,
+                0.5498126745223999,
+                -0.025301102548837662,
+                0.8349047899246216
+            ],
+            "min": [
+                -0.0017480492824688554,
+                0.5488857626914978,
+                -0.040725890547037125,
+                0.8346229195594788
+            ],
+            "name": "accessor_buffer_Bone.001_Armature_tree02_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 1060,
+            "max": [
+                0.997097909450531,
+                0.9963884949684143,
+                0.9966102838516235
+            ],
+            "min": [
+                -0.9938719868659973,
+                -0.9906324744224548,
+                -0.9966228008270264
+            ],
+            "name": "accessor_buffer_BigTree.008_NORMAL_0",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 12,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 179,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "name": "accessor_buffer_Bone_Armature_tree02_2",
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 1134,
+            "max": [
+                1059
+            ],
+            "min": [
+                0
+            ],
+            "name": "accessor_buffer_BigTree.008_0",
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 16,
+            "componentType": 5126,
+            "count": 1060,
+            "max": [
+                1.0567668676376343,
+                0.000541195273399353,
+                0.0,
+                0.0
+            ],
+            "min": [
+                0.9747294187545776,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "accessor_buffer_BigTree.008_skin_1",
+            "type": "VEC4"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5121,
+            "count": 1060,
+            "max": [
+                1,
+                0,
+                0,
+                0
+            ],
+            "min": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "name": "accessor_buffer_BigTree.008_skin_0",
+            "type": "VEC4"
+        }
+    ],
+    "animations": [
+        {
+            "channels": [
+                {
+                    "sampler": 0,
+                    "target": {
+                        "node": 5,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 1,
+                    "target": {
+                        "node": 5,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 2,
+                    "target": {
+                        "node": 5,
+                        "path": "scale"
+                    }
+                },
+                {
+                    "sampler": 3,
+                    "target": {
+                        "node": 4,
+                        "path": "translation"
+                    }
+                },
+                {
+                    "sampler": 4,
+                    "target": {
+                        "node": 4,
+                        "path": "rotation"
+                    }
+                },
+                {
+                    "sampler": 5,
+                    "target": {
+                        "node": 4,
+                        "path": "scale"
+                    }
+                }
+            ],
+            "name": "tree02",
+            "samplers": [
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 5
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 8
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 4
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 1
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 0
+                },
+                {
+                    "input": 6,
+                    "interpolation": "LINEAR",
+                    "output": 10
+                }
+            ]
+        }
+    ],
+    "asset": {
+        "copyright": "",
+        "generator": "blendergltf v1.2.0",
+        "version": "2.0"
+    },
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteLength": 12720,
+            "byteOffset": 0,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BigTree.008_POSITION_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 12720,
+            "byteOffset": 12720,
+            "byteStride": 12,
+            "name": "bufferView_buffer_BigTree.008_NORMAL_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 8480,
+            "byteOffset": 25440,
+            "byteStride": 8,
+            "name": "bufferView_buffer_BigTree.008_TEXCOORD_0_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2272,
+            "byteOffset": 33920,
+            "name": "bufferView_buffer_BigTree.008_0",
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteLength": 33920,
+            "byteOffset": 36192,
+            "byteStride": 32,
+            "name": "bufferView_buffer_BigTree.008_skin_0",
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteLength": 128,
+            "byteOffset": 70112,
+            "byteStride": 64,
+            "name": "bufferView_buffer_IBM_BigTree.007_skin_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 716,
+            "byteOffset": 70240,
+            "byteStride": 4,
+            "name": "bufferView_buffer_Armature_tree02_time_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2148,
+            "byteOffset": 70956,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone.001_Armature_tree02_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2864,
+            "byteOffset": 73104,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone.001_Armature_tree02_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2148,
+            "byteOffset": 75968,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone.001_Armature_tree02_2"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2148,
+            "byteOffset": 78116,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_tree02_0"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2864,
+            "byteOffset": 80264,
+            "byteStride": 16,
+            "name": "bufferView_buffer_Bone_Armature_tree02_1"
+        },
+        {
+            "buffer": 0,
+            "byteLength": 2148,
+            "byteOffset": 83128,
+            "byteStride": 12,
+            "name": "bufferView_buffer_Bone_Armature_tree02_2"
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 85276,
+            "name": "buffer_tree2",
+            "uri": "buffer_tree2.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera",
+            "perspective": {
+                "aspectRatio": 1.703595982340029,
+                "yfov": 0.5033799409866333,
+                "zfar": 100.0,
+                "znear": 0.10000000149011612
+            },
+            "type": "perspective"
+        }
+    ],
+    "images": [
+        {
+            "name": "ColorAtlas.png",
+            "uri": "ColorAtlas.png.png"
+        }
+    ],
+    "materials": [
+        {
+            "alphaMode": "OPAQUE",
+            "doubleSided": false,
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "name": "ColorAtlas.003",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0,
+                    "texCoord": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "BigTree.008",
+            "primitives": [
+                {
+                    "attributes": {
+                        "JOINTS_0": 13,
+                        "NORMAL": 9,
+                        "POSITION": 7,
+                        "TEXCOORD_0": 2,
+                        "WEIGHTS_0": 12
+                    },
+                    "indices": 11,
+                    "material": 0,
+                    "mode": 4
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "children": [
+                1,
+                4
+            ],
+            "name": "Armature",
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                10.56295394897461,
+                10.56295394897461,
+                10.56295394897461
+            ],
+            "translation": [
+                -0.025243282318115234,
+                0.17164134979248047,
+                -0.002983599901199341
+            ]
+        },
+        {
+            "mesh": 0,
+            "name": "BigTree.007",
+            "rotation": [
+                8.146033536604591e-08,
+                4.3711395392165286e-08,
+                -3.560745245206366e-15,
+                1.0
+            ],
+            "scale": [
+                0.09467048943042755,
+                0.09467048943042755,
+                0.09467048943042755
+            ],
+            "skin": 0,
+            "translation": [
+                0.0023897942155599594,
+                -0.016249369829893112,
+                0.00028245890280231833
+            ]
+        },
+        {
+            "camera": 0,
+            "name": "Camera",
+            "rotation": [
+                -0.09062843769788742,
+                -0.8937962651252747,
+                -0.2099730223417282,
+                0.38578000664711
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                -7.481131553649902,
+                5.34366512298584,
+                -6.5076398849487305
+            ]
+        },
+        {
+            "name": "Lamp",
+            "rotation": [
+                -0.34203386306762695,
+                -0.5232755541801453,
+                -0.2841663062572479,
+                0.7269423007965088
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "translation": [
+                -4.076245307922363,
+                5.903861999511719,
+                1.0054539442062378
+            ]
+        },
+        {
+            "children": [
+                5
+            ],
+            "name": "Bone",
+            "rotation": [
+                0.0,
+                1.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "name": "Bone.001",
+            "rotation": [
+                0.021690651774406433,
+                0.5498126745223999,
+                -0.025301102548837662,
+                0.8346229195594788
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "translation": [
+                0.0,
+                1.0,
+                0.0
+            ]
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "name": "Texture",
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "scene": 0,
+    "scenes": [
+        {
+            "extras": {
+                "active_camera": 0,
+                "background_color": [
+                    0.05087608844041824,
+                    0.05087608844041824,
+                    0.05087608844041824
+                ],
+                "frames_per_second": 24
+            },
+            "name": "Scene",
+            "nodes": [
+                0,
+                3,
+                2
+            ]
+        }
+    ],
+    "skins": [
+        {
+            "inverseBindMatrices": 3,
+            "joints": [
+                4,
+                5
+            ],
+            "name": "BigTree.007",
+            "skeleton": 4
+        }
+    ],
+    "textures": [
+        {
+            "name": "Texture",
+            "sampler": 0,
+            "source": 0
+        }
+    ]
+}
