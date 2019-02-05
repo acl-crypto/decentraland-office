@@ -1,5 +1,42 @@
 import {ChangeCryptoKittyScreen, ChangeCryptoKittyScreenLowerRegionCurrency} from "modules/keyboard"
 
+// get ETH-rate
+export let ETHactualRate = 1;
+
+export function getETHrate() {
+	executeTask(async () => {
+		
+	try {
+		let responseETH = await fetch('https://rest.coinapi.io/v1/exchangerate/ETH?apikey=E28335C0-F0E3-4CF3-8151-1B2D483BE1F9')
+		log("coinapi call shop !");
+		let jsonETH = await responseETH.json();
+		// log(json01);
+		// let CryptoCurrencyType1 = jsonETH.asset_id_base;
+		for(let i = 0; i < 99; i++)
+		{
+			// log(CryptoCurrencyType1);
+			let CryptoCurrencyValueLongloop1 = jsonETH.rates[i].asset_id_quote;
+				if (CryptoCurrencyValueLongloop1 == "USD"){
+					ETHactualRate = parseInt(jsonETH.rates[i].rate);
+
+					// let ETHactualRate2 = (CryptoCurrencyValueLong1.toFixed(4));
+
+					// log("testss " + ETHactualRate);
+				};
+		
+			}
+			log("coinapi call success ! ETH: 1 = USD: " + ETHactualRate);
+
+
+	} catch {
+		log('failed to reach ETH-currency', error);
+
+	}
+	})
+	// log("ETH-rate: " + ETHactualRate);
+};
+// getETHrate();
+// log("ETH-rate: " + ETHactualRate);
 // get Currency Rates
 export let CryptoCurrencyValue = "btc", keyboardScreenExchangeRate = "", CryptoKittyScreenLowerRegionTextValueTotal;
 export function getCurrenyRates(CryptoCurrencyValue) {
@@ -7,6 +44,7 @@ export function getCurrenyRates(CryptoCurrencyValue) {
 		
 		try {
 			let response0 = await fetch('https://rest.coinapi.io/v1/exchangerate/' + CryptoCurrencyValue +'?apikey=E28335C0-F0E3-4CF3-8151-1B2D483BE1F9')
+			log("coinapi call exchange rate !");
 			let json0 = await response0.json();
 			log(json0);
 
